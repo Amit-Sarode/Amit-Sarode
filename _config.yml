@@ -1,0 +1,8 @@
+# GitHub Pages & Jekyll Configuration
+title: "Amit Sarode | Full-Stack Developer · AI-Integrated Apps & SaaS"
+description: "I build AI-integrated web applications, SaaS platforms, and workflow automation tools. React, TypeScript, Node.js. Available for freelance worldwide."
+author: "Amit Sarode"
+url: "https://amit-sarode.github.io"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
