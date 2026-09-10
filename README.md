@@ -17,8 +17,8 @@
   <a href="https://linkedin.com/in/amit-sarode">
     <img src="https://img.shields.io/badge/LinkedIn-in%2Famit--sarode-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <!-- TODO: Replace "#" with your hosted resume URL (e.g., Google Drive link, GitHub release, or portfolio PDF asset) -->
-  <a href="#TODO-RESUME-LINK">
+  <!-- Resume Link -->
+  <a href="assets/Amit_Sarode_Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-View%20PDF-E11D48?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
   </a>
   <a href="mailto:sarodeamit990@gmail.com">
@@ -120,7 +120,7 @@
 
 ## 🚀 Featured Projects
 
-> **Pro-Tip**: Replace demo placeholders with a 5–10 second looping GIF recorded via ScreenToGif or ezgif.com (< 5MB) for the highest recruiter conversion.
+> **Pro-Tip**: Drop 5–10 second looping GIFs into `assets/` (e.g. `assets/mindcare-demo.gif`) recorded via ScreenToGif or ezgif.com (< 5MB) for maximum recruiter conversion.
 
 ### 1. 🩺 MindCare — AI Healthcare Assistant & Triage System
 > **24/7 conversational patient intake, symptom pre-screening triage, and automated appointment scheduling for modern healthcare clinics.**
@@ -129,9 +129,8 @@
 - **Impact & Capabilities**: Pre-screens patient concerns before appointments, reduces missed calls by ~80%, and integrates instant booking workflows.
 - **Links**: [🌐 Live Demo](https://mindcare-ebon-iota.vercel.app/) • [💻 GitHub Repository](https://github.com/Amit-Sarode/mindcare)
 
-<!-- TODO: Replace placeholder image below with your 5-10s demo GIF (e.g. assets/mindcare-demo.gif) -->
 <p align="center">
-  <img src="https://via.placeholder.com/850x420/0f172a/38bdf8?text=%E2%96%B6+Add+5-10s+Demo+GIF+Here+(assets%2Fmindcare-demo.gif)" alt="MindCare AI Preview" width="100%" />
+  <img src="assets/mindcare-preview.svg" alt="MindCare AI Preview" width="100%" />
 </p>
 
 ---
@@ -143,9 +142,8 @@
 - **Impact & Capabilities**: Unified roster management, role-based access control (RBAC), activity audit trails, and automated team task lifecycles.
 - **Links**: [🌐 Live Demo](https://mtms-liart.vercel.app/) • [💻 GitHub Repository](https://github.com/Amit-Sarode/MTMS)
 
-<!-- TODO: Replace placeholder image below with your 5-10s demo GIF (e.g. assets/mtms-demo.gif) -->
 <p align="center">
-  <img src="https://via.placeholder.com/850x420/0f172a/818cf8?text=%E2%96%B6+Add+5-10s+Demo+GIF+Here+(assets%2Fmtms-demo.gif)" alt="MTMS Preview" width="100%" />
+  <img src="assets/mtms-preview.svg" alt="MTMS Preview" width="100%" />
 </p>
 
 ---
@@ -155,11 +153,10 @@
 
 - **Tech Stack**: `Python` · `Node.js` · `Puppeteer / Playwright` · `Bézier Trajectories` · `LLM APIs`
 - **Impact & Capabilities**: Human-like mouse trajectory simulation to bypass bot detection, automated web task execution, structured data extraction, and automatic report compilation.
-- **Links**: <!-- TODO: Add Live Demo link or Loom walkthrough if available --> • [💻 GitHub Repository](https://github.com/Amit-Sarode/rewards-farmer)
+- **Links**: [💻 GitHub Repository](https://github.com/Amit-Sarode/rewards-farmer)
 
-<!-- TODO: Replace placeholder image below with a looping terminal or execution GIF (e.g. assets/automation-demo.gif) -->
 <p align="center">
-  <img src="https://via.placeholder.com/850x420/0f172a/34d399?text=%E2%96%B6+Add+Terminal+%2F+Automation+Demo+GIF+Here+(assets%2Fautomation-demo.gif)" alt="Browser Automation Engine Preview" width="100%" />
+  <img src="assets/automation-preview.svg" alt="Browser Automation Engine Preview" width="100%" />
 </p>
 
 ---
@@ -169,11 +166,10 @@
 
 - **Tech Stack**: `React Native / React 19` · `TypeScript` · `WebRTC` · `Socket.io` · `Firebase`
 - **Impact & Capabilities**: Real-time room audio synchronization, instant encrypted chat, background push notifications, and AI-assisted notes.
-- **Links**: <!-- TODO: Add Live Demo / TestFlight / APK link if available --> • <!-- TODO: Add public GitHub Repository URL if open source -->
+- **Links**: [💻 GitHub Repository](https://github.com/Amit-Sarode/vibenote)
 
-<!-- TODO: Replace placeholder image below with your mobile demo GIF (e.g. assets/vibenote-demo.gif) -->
 <p align="center">
-  <img src="https://via.placeholder.com/850x420/0f172a/f472b6?text=%E2%96%B6+Add+Mobile+App+Demo+GIF+Here+(assets%2Fvibenote-demo.gif)" alt="VibeNote Preview" width="100%" />
+  <img src="assets/vibenote-preview.svg" alt="VibeNote Preview" width="100%" />
 </p>
 
 ---

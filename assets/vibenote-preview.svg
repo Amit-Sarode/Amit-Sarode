@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%" style="background:#0f172a; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 12px; overflow: hidden;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#4c0519"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="850" height="420" fill="url(#bgGrad)"/>
+  
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"/>
+    </pattern>
+    <rect width="850" height="420" fill="url(#grid)"/>
+  </g>
+
+  <circle cx="750" cy="90" r="130" fill="#f472b6" opacity="0.1" filter="url(#glow)"/>
+  <circle cx="100" cy="330" r="140" fill="#e11d48" opacity="0.12" filter="url(#glow)"/>
+
+  <!-- App Window Frame -->
+  <rect x="30" y="30" width="790" height="360" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <rect x="30" y="30" width="790" height="40" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <circle cx="55" cy="50" r="6" fill="#ef4444"/>
+  <circle cx="75" cy="50" r="6" fill="#f59e0b"/>
+  <circle cx="95" cy="50" r="6" fill="#10b981"/>
+  <text x="120" y="55" fill="#94a3b8" font-size="13" font-weight="600">https://github.com/Amit-Sarode/vibenote</text>
+
+  <!-- Content Header -->
+  <text x="60" y="115" fill="#f8fafc" font-size="24" font-weight="700">📱 VibeNote — Real-Time Multimedia &amp; Audio Platform</text>
+  <text x="60" y="140" fill="#94a3b8" font-size="14">Low-latency WebRTC audio streaming, instant messaging, and haptic feedback</text>
+
+  <!-- Feature Cards -->
+  <rect x="60" y="170" width="220" height="150" rx="8" fill="#0f172a" stroke="#f472b6" stroke-width="1.5" opacity="0.9"/>
+  <text x="80" y="200" fill="#f472b6" font-size="14" font-weight="600">🎙️ WebRTC Audio</text>
+  <text x="80" y="225" fill="#cbd5e1" font-size="12">Ultra-low latency room</text>
+  <text x="80" y="245" fill="#cbd5e1" font-size="12">P2P audio sync</text>
+  <text x="80" y="265" fill="#cbd5e1" font-size="12">Background streaming</text>
+
+  <rect x="315" y="170" width="220" height="150" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" opacity="0.9"/>
+  <text x="335" y="200" fill="#f472b6" font-size="14" font-weight="600">💬 Real-Time Chat</text>
+  <text x="335" y="225" fill="#cbd5e1" font-size="12">Socket.io websockets</text>
+  <text x="335" y="245" fill="#cbd5e1" font-size="12">Haptic user feedback</text>
+  <text x="335" y="265" fill="#cbd5e1" font-size="12">Encrypted media payload</text>
+
+  <rect x="570" y="170" width="220" height="150" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" opacity="0.9"/>
+  <text x="590" y="200" fill="#f472b6" font-size="14" font-weight="600">⚡ Tech Stack</text>
+  <text x="590" y="225" fill="#cbd5e1" font-size="12">React Native &amp; TS</text>
+  <text x="590" y="245" fill="#cbd5e1" font-size="12">WebRTC &amp; Socket.io</text>
+  <text x="590" y="265" fill="#cbd5e1" font-size="12">Firebase &amp; Notifee</text>
+
+  <rect x="60" y="340" width="730" height="35" rx="6" fill="url(#accentGrad)" opacity="0.15"/>
+  <text x="425" y="362" fill="#f472b6" font-size="13" font-weight="600" text-anchor="middle">💡 Drop 5-10s mobile app demo loop into assets/vibenote-demo.gif to replace preview</text>
+</svg>
